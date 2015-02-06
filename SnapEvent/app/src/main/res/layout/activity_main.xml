@@ -9,8 +9,18 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:text="@string/hello_world"
+        android:text="OCR in da HOUSEEEEEE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:inputType="textAutoCorrect|textMultiLine" />
+
+
 
 </RelativeLayout>
